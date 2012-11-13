@@ -1,4 +1,6 @@
 App::Application.routes.draw do
+  resources :logins
+
   resources :microposts
 
   resources :users
